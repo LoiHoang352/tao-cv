@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    position: relative;
+}
+.main--info{
+    position: absolute;
+    left: 25%;
+    top: 75px;
+    right: 0;
+    z-index: 999;
+}
+.info__name .img{
+    position: absolute;
+    left: -5%;
+    top: -40%;
+    /* transform: translateY(50%); */
+}
+.info__name .title {
+    padding-left: 200px;
+}
+.main--info img{
+    width: 30vmin;
+    height: 30vmin;
+    margin-right: 4vmin;
+    border: 10px solid #000;
+    border-radius: 50%;
+}
+.info__name{
+    position: relative;
+    padding-left: 0vmin;
+    background-color: burlywood;
+    width: 100%; 
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+}
+.info__name h1{
+    font-size: 30px;
+}
+.main--skill{
+    padding-left: 3vmin;
+}
+.main--skills h1{
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+    border:  2px solid burlywood;
+}
+.main--skills{
+    background-color: rgb(21, 17, 17);
+    padding-top: 300px;
+    position: relative;
+}
+.contact--info {
+    color: aliceblue;
+    margin: 10px 0;
+}
+.contact--info .icon{
+    color: burlywood;
+}
+.contact--info p{
+    line-height: 16px;
+    font-size: 16px;
+}
+.percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.list-skills{
+    margin: 5px 0;
+}
+.list-skills p{
+    margin: 0px;
+    font-size: 2vmin;
+}
+.col-5 {
+    padding: 0;
+}
+.percent .per{
+    position: absolute;
+   height: 100%;
+   left: 0;
+   background-color: burlywood;
+}
+.percent .photo{
+   width: 90%;
+}
+.percent .css{
+    width: 70%;
+ }
+ .percent .html{
+    width: 50%;
+ }
+ .percent .python{
+    width: 80%;
+ }
+ .main--edu{
+     padding-top: 25%;
+ }
+ .heading-box{
+     background-color: burlywood;
+     border-radius: 50%;
+     width: 50px;
+     height: 50px;
+     margin: auto;
+ }
+ .heading {
+    margin: 40px 0;
+ }
+ .heading-text{
+    padding-left: 20px;
+ }
+ .sub{
+     margin: 40px 0;
+ }
+ .sub h2{
+     font-size: 25px;
+ }
+.heading-text h1{
+    font-size: 25px;
+}
+ .main--edu h1, .main--edu p, .main--edu h2 {
+     margin: 0;
+ }
+ .main--content > h1{
+     background-color: darkgoldenrod;
+     text-transform: uppercase;
+     text-align: center;
+ }
+.social__icon{
+    color: burlywood;
+}
+.main--discription{
+    padding-top: 300px;
+}
+.heading-box{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: burlywood;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+.title-heading{
+    background-color: rgb(224, 144, 40);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0;
+}
+.heading-content{
+    font-size: 25px;
+}
+.sub-heading{
+    font-size: 15px;
+}
+.footer{
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    border-top: 2px solid #ccc;
+    padding-top: 15px;
+    padding-right: 10px;
+}
